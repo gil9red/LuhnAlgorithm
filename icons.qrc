@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="valid">icons/button_ok_1987.png</file>
+        <file alias="not_valid">icons/editdelete_6777.png</file>
+    </qresource>
+</RCC>
