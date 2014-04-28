@@ -12,7 +12,7 @@ const int getSumSequence( const QVector < qint16 > & arr )
 LuhnAlgorithm::LuhnAlgorithm( const QString & t )
     : text(t), sum(0), valid( false )
 {
-
+    text = text.remove( ' ' );
 }
 
 LuhnAlgorithm &LuhnAlgorithm::execute()
